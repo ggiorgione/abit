@@ -3,3 +3,5 @@
 /event.log
 /event-debug.log
 /event-trace.log
+/input/dwellings/*
+/input/dwellings.csv

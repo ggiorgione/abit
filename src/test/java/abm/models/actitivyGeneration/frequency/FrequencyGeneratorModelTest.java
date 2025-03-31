@@ -32,7 +32,7 @@ public class FrequencyGeneratorModelTest {
     public void test() {
 
         //Initialize the properties file
-        AbitResources.initializeResources("C:/models/abit_standalone/abit.properties");
+        AbitResources.initializeResources("C:\\Users\\giulio\\Documents\\VSCode\\abit\\input\\abit.properties");
 
         //Create dummy person, household, and zone
         DataSet dataSet = new DataSet();

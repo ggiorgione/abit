@@ -1,0 +1,73 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RunAbitSimple",
+            "request": "launch",
+            "mainClass": "abm.RunAbitSimple",
+            "projectName": "abm"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "RunAbit",
+            "request": "launch",
+            "mainClass": "abm.RunAbit",
+            "projectName": "abm"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Run AbitSimple",
+            "mainClass": "abm.RunAbitSimple",
+            "projectName": "abit",
+            "cwd": "${workspaceFolder}",
+            "args": ["input/config.properties"],
+            "classPaths": ["target/classes/abm"]
+        },
+        {
+            "type": "java",
+            "name": "RunMatsim",
+            "request": "launch",
+            "mainClass": "abm.RunMatsim",
+            "projectName": "abm"
+        },
+        {
+            "type": "java",
+            "name": "LogsumAnalysis",
+            "request": "launch",
+            "mainClass": "abm.analysis.LogsumAnalysis",
+            "projectName": "abm"
+        },
+        {
+            "type": "java",
+            "name": "ConfigureMATSim",
+            "request": "launch",
+            "mainClass": "abm.matsim.ConfigureMATSim",
+            "projectName": "abm"
+        },
+        {
+            "type": "java",
+            "name": "RunMATSim",
+            "request": "launch",
+            "mainClass": "abm.matsim.RunMATSim",
+            "projectName": "abm"
+        },
+ //       {
+ //           "type": "java",
+ //           "name": "RunAbitLowEmissionZones",
+ //           "request": "launch",
+ //           "mainClass": "abm.scenarios.lowEmissionZones.runner.RunAbitLowEmissionZones",
+ //           "projectName": "abm"
+ //       }
+    ]
+}

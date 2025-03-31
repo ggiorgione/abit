@@ -22,7 +22,7 @@ public class SplitByTypeModelTest {
     public void test() {
 
         //set the working directory!
-        AbitResources.initializeResources("abit.properties");
+        AbitResources.initializeResources("input/abit.properties");
 
         DataSet dataSet = new DataSet();
         final Zone dummyZone = new Zone(1);

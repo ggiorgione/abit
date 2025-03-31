@@ -27,7 +27,7 @@ public class HabitualModeChoiceTest {
     @Test
     public void test() {
 
-        AbitResources.initializeResources("C:/models/abit/abit.properties");
+        AbitResources.initializeResources("input/abit.properties");
         MitoUtil.initializeRandomNumber(AbitUtils.getRandomObject());
 
         DataSet dataSet = new DataSet();
